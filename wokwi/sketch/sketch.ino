@@ -1,4 +1,27 @@
-#include "config.h"
+// ==========================================
+// CẤU HÌNH API VÀ WIFI (Sửa các thông số ở đây)
+// ==========================================
+
+// --- BLYNK CLOUD CONFIGURATION ---
+#define BLYNK_TEMPLATE_ID "REPLACE_WITH_YOUR_TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "REPLACE_WITH_YOUR_TEMPLATE_NAME"
+#define BLYNK_AUTH_TOKEN "REPLACE_WITH_YOUR_AUTH_TOKEN"
+
+// --- WIFI CONFIGURATION ---
+#define WIFI_SSID "Wokwi-GUEST"
+#define WIFI_PASSWORD ""
+
+// --- THINGSPEAK CONFIGURATION ---
+#define THINGSPEAK_SERVER "api.thingspeak.com"
+#define THINGSPEAK_API_KEY "REPLACE_WITH_THINGSPEAK_WRITE_API_KEY"
+
+// --- HARDWARE PINS ---
+#define LED_PIN 2       // Đèn LED (thay cho Relay/Đèn)
+#define LDR_PIN 36      // VP - Cảm biến ánh sáng quang trở (LDR)
+
+// ==========================================
+// MÃ NGUỒN CHÍNH
+// ==========================================
 
 #define BLYNK_PRINT Serial
 
@@ -49,11 +72,12 @@ void setup() {
   
   digitalWrite(LED_PIN, LOW);
 
+  Serial.println("Connecting to Blynk...");
   Blynk.begin(BLYNK_AUTH_TOKEN, WIFI_SSID, WIFI_PASSWORD);
 
   // Đặt timer
-  timer.setInterval(2000L, readSensors);
-  timer.setInterval(15000L, sendDataToThingSpeak); // ThingSpeak free giới hạn 15s/lần
+  timer.setInterval(2000L, readSensors); // Đọc LDR 2s/lần
+  timer.setInterval(15000L, sendDataToThingSpeak); // Gửi ThingSpeak 15s/lần
 }
 
 void loop() {
