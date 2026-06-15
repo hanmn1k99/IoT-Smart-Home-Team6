@@ -18,10 +18,14 @@ Thay vì ngồi kéo thả từng linh kiện, bạn chỉ cần dán file cấu
    - 1 Quang trở LDR (cảm biến ánh sáng)
    - Điện trở bảo vệ mạch
 
-## 3. Nạp mã nguồn
+## 3. Nạp mã nguồn và Thư viện
 1. Bấm sang tab **`sketch.ino`** trên Wokwi.
 2. Copy toàn bộ nội dung từ file [sketch.ino](../../wokwi/sketch/sketch.ino) trong máy tính của bạn, xóa code cũ trên Wokwi và **Dán (Paste)** vào.
-3. Kéo lên đầu file, bạn sẽ thấy khu vực **CẤU HÌNH API VÀ WIFI**. Tại đây, bạn sẽ phải thay thế các đoạn chữ `REPLACE_WITH_...` bằng các Token thật lấy từ Blynk và ThingSpeak (tôi sẽ hướng dẫn lấy chúng ở file số 03 và 04).
+3. **Quan trọng: Thêm thư viện Blynk.** 
+   - Trên Wokwi, bấm vào thẻ **Library Manager** (biểu tượng cuốn sách) hoặc bấm nút `+` cạnh tên file `sketch.ino`.
+   - Chọn "Add a new library...".
+   - Gõ chữ `Blynk` vào ô tìm kiếm và chọn thư viện **Blynk** của Volodymyr Shymanskyy. (Nếu không làm bước này, Wokwi sẽ báo lỗi không tìm thấy `BlynkSimpleEsp32.h` ở dòng 30).
+4. Kéo lên đầu file `sketch.ino`, bạn sẽ thấy khu vực **CẤU HÌNH API VÀ WIFI**. Tại đây, bạn sẽ phải thay thế các đoạn chữ `REPLACE_WITH_...` bằng các Token thật lấy từ Blynk và ThingSpeak (tôi sẽ hướng dẫn lấy chúng ở file số 03 và 04).
    > *Tạm thời bạn cứ giữ nguyên đó, sau khi đọc xong bài 03 và 04 hãy quay lại thay đổi.*
 
 ## 4. Chạy và quan sát mô phỏng
