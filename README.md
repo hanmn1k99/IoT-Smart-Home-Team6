@@ -12,16 +12,20 @@
 
 **Hệ thống nhà thông minh – Điều khiển đèn bằng giọng nói, ứng dụng Blynk và AI tự động bật/tắt theo ánh sáng/thời gian thực (Node.js)**
 
-👤 **Tác giả**: Nhóm 5
-| Họ và Tên | Vai Trò |
-| Lê Doãn Minh | Đốc công| 
-| Hồ Lâm Sơn | 10 vạn câu hỏi |
-| Trần Duy Vũ Anh | Dev chính |
-| Nguyễn Minh Hân | Dev lỏ |
 
 [📖 Tài Liệu](#-tài-liệu) · [🚀 Cài Đặt Nhanh](#-cài-đặt-nhanh) · [❓ Hỏi Đáp](#-hỏi-đáp)
 
 </div>
+
+---
+
+👤 **Tác giả**: Nhóm 5 - *D23TXCN06-K*
+| Họ và Tên | Vai Trò |
+|---|---|
+| Lê Doãn Minh | Đốc công kiêm tester| 
+| Hồ Lâm Sơn | 10 vạn câu hỏi |
+| Trần Duy Vũ Anh | Dev chính |
+| Nguyễn Minh Hân | Dev lỏ |
 
 ---
 
