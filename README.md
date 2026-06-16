@@ -8,11 +8,11 @@
 ![Blynk](https://img.shields.io/badge/Blynk-IoT-1B9C85?style=for-the-badge)
 ![Google Home](https://img.shields.io/badge/Google-Home-4285F4?style=for-the-badge&logo=google)
 ![IFTTT](https://img.shields.io/badge/IFTTT-Automation-black?style=for-the-badge&logo=ifttt)
-![Author](https://img.shields.io/badge/Author-Sinh%20Vi%C3%AAn%20PTIT-blueviolet?style=for-the-badge&logo=github)
+![Author](https://img.shields.io/badge/Author-nh%C3%B3m%205%20D23TXCN06--K-blueviolet?style=for-the-badge&logo=github)
 
 **Hệ thống nhà thông minh – Điều khiển đèn bằng giọng nói, ứng dụng Blynk và AI tự động bật/tắt theo ánh sáng/thời gian thực (Node.js)**
 
-👤 **Tác giả**: Sinh viên PTIT
+👤 **Tác giả**: nhóm 5 D23TXCN06-K
 
 [📖 Tài Liệu](#-tài-liệu) · [🚀 Cài Đặt Nhanh](#-cài-đặt-nhanh) · [❓ Hỏi Đáp](#-hỏi-đáp)
 
