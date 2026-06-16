@@ -256,7 +256,9 @@ Dự án sử dụng IFTTT để lắng nghe câu lệnh từ Google Assistant (
 
 <div align="center">
 
-### 👤 Đồ Án Cuối Kỳ IoT (PTIT)
+## 👤 Đồ Án Kết Thúc Môn Học IoT
+### ⭐ Giảng Viên Hướng Dẫn: ThS. Phan Thanh Hy ⭐
+#### Hỗ trợ dự án: [Nguyễn Mnh Hân](https://minhhan.net)
 
 ⭐ **Hãy khám phá các thư mục `docs/` để tiến hành cài đặt dự án!** ⭐
 
