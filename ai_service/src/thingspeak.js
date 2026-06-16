@@ -1,8 +1,8 @@
 require('dotenv').config({ path: '../.env' });
 const axios = require('axios');
 
-const THINGSPEAK_READ_API_KEY = process.env.THINGSPEAK_READ_API_KEY;
-const THINGSPEAK_CHANNEL_ID = process.env.THINGSPEAK_CHANNEL_ID;
+const THINGSPEAK_READ_API_KEY = process.env.XNHCRLGIIOH6H3AP;
+const THINGSPEAK_CHANNEL_ID = process.env.3408715;
 
 /**
  * Đọc 5 kết quả gần nhất từ ThingSpeak
