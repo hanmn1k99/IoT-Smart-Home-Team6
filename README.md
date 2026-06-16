@@ -135,10 +135,18 @@ nano .env  # Điền các Token và API Key
 
 ### 3. Chạy AI Service
 
+Bạn có thể chạy trực tiếp bằng Node.js:
 ```bash
+cd ai_service
 npm start
 ```
-*Script sẽ chạy định kỳ mỗi 30s để kiểm tra và tự động điều chỉnh đèn.*
+
+**Hoặc chạy bằng Docker (Khuyên dùng cho VPS):**
+```bash
+docker compose up -d
+# Chạy ngầm 24/7. Xem log bằng lệnh: docker logs -f iot-ai-service
+# Khi đồ án kết thúc, xóa sạch bằng lệnh: docker compose down --rmi all
+```
 
 ---
 
